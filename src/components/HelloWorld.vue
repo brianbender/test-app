@@ -5,6 +5,8 @@
 </template>
 
 <script>
+import { createWarehouse } from "@enlearn/warehouse";
+
 export default {
   name: 'HelloWorld',
   props: {
