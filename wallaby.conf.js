@@ -17,7 +17,7 @@ module.exports = (wallaby) => {
       },
   
       preprocessors: {
-        '**/*.vue': file => require('vue-jest').process(file.content, file.path)
+        '**/*.vue': file => require('vue-jest').process(file.content, file.path, require('./jest.config'))
       },
   
       setup: function (wallaby) {
