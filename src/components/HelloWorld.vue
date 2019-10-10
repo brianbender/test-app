@@ -44,7 +44,7 @@ export default {
 
 h3 {
   margin: 40px 0 0;
-  font: 700 $fontSizeLarge $accentFontFamily;
+  font: 700 $fontSizeBanner $accentFontFamily;
 }
 ul {
   list-style-type: none;
